@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import Card from '../layout/Cards';
+import Footer from '../layout/Footer';
 
 import styled from 'styled-components';
 
@@ -64,6 +65,9 @@ function Home() {
                 <Card />
                 <Card />
             </DivCards>
+           <DivFooter>
+               <Footer />
+           </DivFooter>
         </Styles>
     )
 }
@@ -79,7 +83,16 @@ const DivCards = styled.div`
     margin-top: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
-
 `
-
+const DivFooter = styled.div`
+    height: 100px;
+    background-color: #ccc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+`;
 export default Home
