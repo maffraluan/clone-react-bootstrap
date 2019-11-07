@@ -9,8 +9,8 @@ function Jumbotron() {
            <Jumbo fluid className="jumbo">
                <div className="overlay"></div>
                <Container>
-                   <h1>Welcome</h1>
-                   <p>Learn to code from trying hard</p>
+                   <h1>Welcome guest,</h1>
+                   <p>We'll guide you for a better place to go!</p>
                </Container>
            </Jumbo>
        </Styles>
